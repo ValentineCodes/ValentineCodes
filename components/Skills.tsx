@@ -18,9 +18,9 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-3 gap-10">
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill directionLeft />
+        <Skill directionLeft />
+        <Skill directionLeft />
         <Skill />
         <Skill />
         <Skill />
