@@ -17,7 +17,10 @@ function Projects({}: Props) {
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mt-5">
         {[1, 2, 3, 4, 5].map((project, i) => (
-          <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+          <div
+            key={i}
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+          >
             <motion.img
               initial={{ y: -300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
