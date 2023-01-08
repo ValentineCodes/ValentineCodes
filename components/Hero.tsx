@@ -26,7 +26,7 @@ function Hero({}: Props) {
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10 py-5">
           <span>{text}</span>
-          <Cursor cursorColor="#f7ab0a" />
+          <Cursor cursorColor="#93e718" />
         </h1>
 
         <div>
@@ -45,6 +45,12 @@ function Hero({}: Props) {
           <Link href="#projects">
             <button className="heroBtn">Projects</button>
           </Link>
+
+          <a href="/files/resume.pdf" download>
+            <button className="py-[10px] px-[15px] text-[#93e718] text-sm mx-[20px] border border-[#93e718] rounded-md transition-colors duration-300 hover:bg-[#93e718]/10">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>

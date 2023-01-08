@@ -1,0 +1,34 @@
+[
+  {
+    "companyName": "Anambra Broadcasting Station, Nigeria",
+    "companyLogo": "/images/abs_logo.jpeg",
+    "role": "Mobile App Developer",
+    "skill_logos": [
+      "/images/ts-js_logo.png",
+      "/images/react_logo.png",
+      "/images/firebase_logo.png"
+    ],
+    "duration": "4/21 - 3/22",
+    "accomplishments": [
+      "Built an app which solves a problem of security(awareness) by enabling users to send crime reports to a central authority along with their exact location, a video recording, and more",
+      "Built an app which receives the security reports from the “Report” app described previously.",
+      "Built an app for money management which helps users make smarter financial decisions by enabling them keep track of their daily expenses."
+    ]
+  },
+  {
+    "companyName": "Floppiess Inc, Germany",
+    "companyLogo": "/images/floppiess_logo.png",
+    "role": "Web Developer",
+    "skill_logos": [
+      "/images/ts-js_logo.png",
+      "/images/react_logo.png",
+      "/images/wordpress_logo.jpeg"
+    ],
+    "duration": "10/21 - present",
+    "accomplishments": [
+      "Integrated user authentication system using Wordpress APIs for a multivendor e-commerce platform",
+      "Built product management systems to create, update, add to cart, delete, and list products of different variations",
+      "Manage customer orders and vendor profiles"
+    ]
+  }
+]

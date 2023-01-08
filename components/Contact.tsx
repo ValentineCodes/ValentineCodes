@@ -24,43 +24,43 @@ function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10 mt-20">
-        <h4 className="text-3xl font-semibold text-center">
+        <h4 className="text-2xl md:text-3xl font-semibold text-center">
           What are you working on? Let's discuss
         </h4>
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+2348140715721</p>
+            <PhoneIcon className="text-[#93e718] h-7 w-7 animate-pulse" />
+            <p className="text-1xl md:text-2xl">+2348140715721</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Valentineorga@gmail.com</p>
+            <EnvelopeIcon className="text-[#93e718] h-7 w-7 animate-pulse" />
+            <p className="text-1xl md:text-2xl">Valentineorga@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#f7ab0a] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Anambra, Nigeria</p>
+            <MapPinIcon className="text-[#93e718] h-7 w-7 animate-pulse" />
+            <p className="text-1xl md:text-2xl">Anambra, Nigeria</p>
           </div>
         </div>
 
         <form
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 mx-auto w-[300px] md:w-fit"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 ">
             <input
               {...register("name")}
               type="text"
               placeholder="Name"
-              className="contactInput"
+              className="contactInput w-[146px] md:w-fit"
             />
             <input
               {...register("email")}
               type="email"
               placeholder="Email"
-              className="contactInput"
+              className="contactInput w-[146px] md:w-fit"
               required
             />
           </div>
@@ -81,7 +81,7 @@ function Contact({}: Props) {
 
           <button
             type="submit"
-            className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#93e718] py-5 px-10 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>

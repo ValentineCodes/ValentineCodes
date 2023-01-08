@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import WorkExperience from "./cards/WorkExperience";
+import WorkBackground from "../public/data/work-background.json";
 
 type Props = {};
 
@@ -16,10 +17,10 @@ function Experience({}: Props) {
         Experience
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
-        <WorkExperience />
-        <WorkExperience />
-        <WorkExperience />
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
+        {WorkBackground.map((background) => (
+          <WorkExperience key={background.companyName} {...background} />
+        ))}
       </div>
     </motion.div>
   );

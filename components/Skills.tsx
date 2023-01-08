@@ -18,12 +18,12 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-3 gap-10">
-        <Skill directionLeft />
-        <Skill directionLeft />
-        <Skill directionLeft />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill img="/images/html_logo.png" title="HTML" />
+        <Skill img="/images/css_logo.png" title="CSS" />
+        <Skill img="/images/ts-js_logo.png" title="Typescript / Javascript" />
+        <Skill img="/images/react_logo.png" title="React / React Native" />
+        <Skill img="/images/firebase_logo.png" title="Firebase" />
+        <Skill img="/images/github_logo.png" title="Git / Github" />
       </div>
     </motion.div>
   );

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Krabs: The Money Manager",
+    "img": "/images/krabs.jpg",
+    "description": "An app for money management which helps users make smarter financial decisions by enabling them keep track of their daily expenses. Built with React Native, Firebase, Chart, Git, e.t.c.",
+    "url": "https://play.google.com/store/apps/details?id=com.krabs",
+    "type": "app"
+  },
+  {
+    "name": "Report",
+    "img": "/images/report.jpg",
+    "description": "An app which solves a problem of security(awareness) by enabling users to send crime reports to a central authority along with their exact location, a video recording, and more. Built with React Native, Firebase, Geolocation, Map, Push Notification, Git, e.t.c.",
+    "url": "https://play.google.com/store/apps/details?id=com.reportcrime",
+    "type": "app"
+  },
+  {
+    "name": "Report-Admin",
+    "img": "/images/report-admin.jpg",
+    "description": "An app which receives the security reports from the “Report” app described previously. Built with React Native, Firebase, Geolocation, Map, Push Notification, Git, e.t.c.",
+    "url": "https://play.google.com/store/apps/details?id=com.reportadmin",
+    "type": "app"
+  }
+]
