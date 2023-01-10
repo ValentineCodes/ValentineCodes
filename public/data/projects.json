@@ -7,7 +7,7 @@
     "type": "app"
   },
   {
-    "name": "Report",
+    "name": "Report: Crime Alert",
     "img": "/images/report.jpg",
     "description": "An app which solves a problem of security(awareness) by enabling users to send crime reports to a central authority along with their exact location, a video recording, and more. Built with React Native, Firebase, Geolocation, Map, Push Notification, Git, e.t.c.",
     "url": "https://play.google.com/store/apps/details?id=com.reportcrime",

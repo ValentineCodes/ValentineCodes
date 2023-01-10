@@ -16,7 +16,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/images/wallpaper_1.jpeg"
+        src="/images/valentinecodes_logo.jpg"
         alt="Valentine Orga's handsome face"
       />
 
@@ -24,7 +24,7 @@ function Hero({}: Props) {
         <h2 className="text-sm uppercase text-gray-500 tracking-[15px]">
           Software Developer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10 py-5">
+        <h1 className="text-3xl md:text-5xl font-semibold px-10 py-5">
           <span>{text}</span>
           <Cursor cursorColor="#93e718" />
         </h1>
