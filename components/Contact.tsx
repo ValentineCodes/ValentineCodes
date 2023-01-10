@@ -18,17 +18,17 @@ function Contact({}: Props) {
     window.location.href = `mailto:valentineorga@gmail.com?subject=${data.subject}&body=Hi, My name is ${data.name}. ${data.message} [${data.email}]`;
   };
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+    <div className="h-screen flex relative flex-col text-center md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center">
+      {/* <h3 className="mt-30 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
-      </h3>
+      </h3> */}
 
       <div className="flex flex-col space-y-10 mt-20">
         <h4 className="text-2xl md:text-3xl font-semibold text-center">
-          What are you working on? Let's discuss
+          What are you working on? Let's chat!
         </h4>
 
-        <div className="space-y-10">
+        <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#93e718] h-7 w-7 animate-pulse" />
             <p className="text-1xl md:text-2xl">+2348140715721</p>
