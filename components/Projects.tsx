@@ -41,9 +41,9 @@ function Projects({}: Props) {
             </div>
             <a href={project.url}>
               <img
-                src="/images/playstore-image.png"
+                src="/images/playstore-image.jpeg"
                 alt=""
-                className="w-[200px]"
+                className="w-[200px] rounded-[10px]"
               />
             </a>
           </div>
