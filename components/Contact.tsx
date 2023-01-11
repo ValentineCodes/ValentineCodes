@@ -23,7 +23,7 @@ function Contact({}: Props) {
         Contact
       </h3> */}
 
-      <div className="flex flex-col space-y-10 mt-20">
+      <div className="flex flex-col space-y-10 mt-10">
         <h4 className="text-2xl md:text-3xl font-semibold text-center">
           What are you working on? Let&apos;s chat!
         </h4>

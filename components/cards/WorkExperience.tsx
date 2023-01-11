@@ -19,19 +19,19 @@ function WorkExperience({
   accomplishments,
 }: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[500px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden overflow-y-scroll">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[500px] xl:w-[800px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
-        className="w-32 h-32 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center"
+        className="w-20 h-20 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center"
         src={companyLogo}
         alt=""
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-2xl md:text-3xl font-light">{role}</h4>
+        <h4 className="text-1xl md:text-2xl font-light">{role}</h4>
         <p className="font-bold text-1xl md:text-2xl mt-1">{companyName}</p>
         <div className="flex space-x-2 my-2">
           {skill_logos.map((logo) => (
@@ -44,9 +44,11 @@ function WorkExperience({
           ))}
         </div>
 
-        <p className="uppercase py-5 text-gray-300">{duration}</p>
+        <p className="uppercase py-5 text-gray-300 text-1xl md:text-2xl">
+          {duration}
+        </p>
 
-        <ul className="list-disc space-y-4 ml-5 text-md md:text-lg">
+        <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg">
           {accomplishments.map((accomplishment) => (
             <li key={accomplishment}>{accomplishment}</li>
           ))}
