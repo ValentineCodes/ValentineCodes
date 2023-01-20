@@ -10,7 +10,7 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
       <Head>
         <title>Valentine Orga | Software Developer</title>
         <meta
@@ -23,27 +23,27 @@ export default function Home() {
 
       <Header />
 
-      <section id="hero" className="snap-center">
+      <section id="hero">
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about">
         <About />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience">
         <Experience />
       </section>
 
-      <section id="skills" className="snap-center">
+      <section id="skills">
         <Skills />
       </section>
 
-      <section id="projects" className="snap-center">
+      <section id="projects">
         <Projects />
       </section>
 
-      <section id="contact" className="snap-center">
+      <section id="contact">
         <Contact />
       </section>
     </div>

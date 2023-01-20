@@ -16,7 +16,7 @@ function Projects({}: Props) {
         Projects
       </h3> */}
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mt-5">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 mt-5 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
         {MyProjects.map((project, i) => (
           <div
             key={i}
