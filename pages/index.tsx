@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 export default function Home() {
+  console.log("Var: ", process.env.NAME);
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
       <Head>
