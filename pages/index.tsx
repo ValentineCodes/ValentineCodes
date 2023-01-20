@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#93e718]/80">
       <Head>
-        <title>Valentine Orga | Software Developer</title>
+        <title>{process.env.NAME} | Software Developer</title>
         <meta
           name="description"
           content="Valentine Orga is a software developer with 3 years of experience and skilled in HTML, CSS, Javascript, Reactjs/Nextjs, React Native, Solidity, and more"
